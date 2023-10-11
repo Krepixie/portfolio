@@ -1,0 +1,86 @@
+<!doctype html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Gelato Premium</title>
+
+
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+    </head>
+
+    <body>
+        <header>
+            <nav>
+                <a href="#">Início</a>
+                <a href="cv.html">Currículo</a>
+            </nav>
+        </header>
+        <div id="top-bar"></div>
+        <section id="home">
+            <h2>Gelato Premium</h2>
+            <a href="#order">Faça seu pedido!</a>
+        </section>
+        <main>
+            <div id="icecream">
+                <img src="images/icecream.jpg">
+            </div>
+            
+            <table>
+                <tr>
+                    <th>Sabor</th>
+                    <th>Valor</th>
+                </tr>
+                <tr>
+                    <td>Chocolate</td>
+                    <td>R$15,90</td>
+                </tr>
+                <tr>
+                    <td>Morango</td>
+                    <td>R$15,90</td>
+                </tr>
+                <tr>
+                    <td>Caramelo</td>
+                    <td>R$17,90</td>
+                </tr>
+                <tr>
+                    <td>Cookies</td>
+                    <td>R$19,90</td>
+                </tr>
+            </table>
+
+        </main>
+        <section id="order">
+            <form>
+                <label for="fullname">Nome completo:</label>
+                <input type="text" name="fullname" placeholder="Ex: Maria da Silva" minlength="3" maxlength="40">
+                <label for="phone">Telefone:</label>
+                <input type="number" name="phone" placeholder="(11) 91234-5678" maxlength="12" minlength="8">
+                <label for="email">E-mail:</label>
+                <input type="email" name="email" placeholder="mariasilva@email.com" >
+                <label for="adress">Endereço:</label>
+                <input type="text" name="adress" placeholder="Avenida Brasil, 999">
+
+                <label for="flavors">Selecione um sabor:</label>
+                <select name="flavors">
+                    <option>🍫 Chocolate</option>
+                    <option>🍓 Morango</option>
+                    <option>🍬 Caramelo</option>
+                    <option>🍪 Cookies</option>
+                </select>
+                <button type="submit">Fazer pedido</button>
+            </form>
+            <img src="/images/sitting.png">
+        </section>
+        <footer>
+            <span>Copyright © 2023 | Created by <a href="https://github.com/krepixie" target="_blank">Bianca Pena</a> </span>
+        </footer>
+    </body>
+
+</html>
