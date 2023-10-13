@@ -1,0 +1,50 @@
+:root {
+    --lilac: #E7C6FF;
+    --lavender: #B8C0FF;
+    --pink: #FFD6FF;
+}
+
+body {
+    background-color: var(--lilac);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+#container {
+    background-color: var(--pink);
+    text-align: center;
+    padding: 3rem;
+    width: 50%;
+    height: 40%;
+    display: none;
+    margin-top: 5rem;
+    position: relative;
+}
+
+#cachorro {
+    display: none;
+    border: 5px dashed white;
+}
+
+#mostrar {
+    padding: 1rem 3rem;
+    background-color: var(--lavender);
+    border: none;
+    border-radius: 50px;
+    text-transform: lowercase;
+    letter-spacing: 2px;
+    font-size: 26px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    transition: .7s;
+}
+
+#mostrar:hover {
+    transform: scale(.9);
+    background-color: #e7d7ff;
+    color: #ce5dc4;
+}
