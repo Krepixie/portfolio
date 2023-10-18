@@ -26,7 +26,7 @@ body {
 
 #cachorro {
     display: none;
-    border: 5px dashed white;
+    border: 10px dashed var(--lilac);
 }
 
 #mostrar {
@@ -40,11 +40,22 @@ body {
     font-weight: bold;
     color: white;
     cursor: pointer;
-    transition: .7s;
+    transition: transform .5s;
+    margin-top: 10rem;
 }
 
 #mostrar:hover {
-    transform: scale(.9);
+    transform: scale(.95);
     background-color: #e7d7ff;
     color: #ce5dc4;
+}
+
+#fechar {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    color: gray;
+    background-color: white;
+    border-radius: 100%;
+    cursor: pointer;
 }
